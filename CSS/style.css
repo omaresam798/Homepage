@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+.offcanvas-body {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.navbar-text {
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.nav-item:hover a {
+    color: var(--Softorange);
+
+}
+
+.big-intery {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.big-para {
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.but {
+    border: 0;
+    background-color: var(--Softred);
+    color: black;
+    text-transform: uppercase;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: all 0.3s;
+}
+
+.but:hover {
+    background-color: black;
+    color: white;
+}
+
+.new {
+    color: var(--Softorange);
+    padding-left: 20px;
+    opacity: 0.9;
+}
+
+.black-box {
+    background-color: black;
+    padding: 20px;
+}
+
+.box {
+    /* background-color: red; */
+    height: 150px;
+    padding: 20px;
+}
+
+.main-info {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.main-para {
+    color: white;
+    opacity: 0.8;
+}
+
+.box:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.main-info:hover {
+    color: var(--Softorange);
+}
+
+.rectangle-data {
+    margin-left: 15px;
+}
+
+.rectangle-number {
+    color: var(--Softorange);
+}
+
+.rectangle-info {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.rectangle img {
+    width: 142px;
+}
+
+.up {
+    background-color: var(--Softred);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    transition: all 0.2s;
+    display: block;
+}
+
+.up:hover {
+    opacity: 0.8;
+}
